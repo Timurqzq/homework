@@ -7,4 +7,5 @@
 /* block */
 @import "./blocks/header.css";
 @import "./blocks/menu.css";
-@import "./blocks/burger.css"
+@import "./blocks/burger.css";
+@import "./blocks/hero.css"
