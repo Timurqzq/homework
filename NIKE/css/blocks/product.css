@@ -215,7 +215,7 @@
 
 .product__buy-wrapper {
     --accent-glow-color: #ffea00cc;
-    --shadow-accent-color: 0 0 12px 0 var(--accent-glow-color);
+    --shadow-accent-glow: 0 0 12px 0 var(--accent-glow-color);
 
     display: flex;
     align-items: center;
