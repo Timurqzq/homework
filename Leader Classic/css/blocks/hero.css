@@ -1,0 +1,129 @@
+.hero__container {
+  margin-top: 131px;
+  position: relative;
+}
+
+.hero__container::after {
+  content: '';
+  display: block;
+  width: 484px;
+  height: 478px;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #98c269 0%, #9edfb6 100%);
+  filter: blur(500px);
+  position: absolute;
+  top: 35%;
+  right: 0;
+  z-index: var(--layer-negative);
+}
+
+.hero__img  {
+  position: absolute;
+  z-index: var(--layer-2);
+  top: 18%;
+  right: -38%;
+}
+
+.hero__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 19px;
+  height: 105px;
+  padding: 10px;
+  background: linear-gradient(90.19deg, rgba(255, 255, 255, 0.06) 0.73%);
+}
+
+.hero__header-info {
+  padding-left: 15px;
+  flex-grow: 1;
+}
+
+.hero__main {
+  padding-top: 39px;
+  max-width: 1002px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.hero__main-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 117%;
+  background: linear-gradient(93.23deg, #fff 0.31%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__main-list {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 159%;
+  color: #eae9e9;
+}
+
+.hero__main-item::before {
+  content: "•";
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #eae9e9;
+  margin: 0px 20px 0px 15px;
+}
+
+.hero__main-buttons {
+  padding-block: 36px;
+  display: flex;
+  gap: 20px;
+}
+
+.hero__main-button-save {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__main-button-text {
+  position: absolute;
+  left: 10%;
+}
+
+.hero__main-button-img {
+  position: absolute;
+  right: -30px;
+  top: -10px;
+}
+
+.hero__footer {
+  padding-top: 28px;
+  display: flex;
+  gap: 94px;
+  align-items: center;
+}
+
+.hero__footer-icons {
+  position: relative;
+}
+
+.hero__footer-icon-two {
+  position: absolute;
+  left: 60%;
+}
+
+.hero__footer-icon-three {
+  position: absolute;
+  left: 120%;
+}
+
+.hero__footer-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 126%;
+  color: #fff;
+}

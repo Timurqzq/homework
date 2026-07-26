@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <script defer src="./js/index.js" type="module"></script>
+    <script defer src="./js/timer.js" type="module"></script>
+    <title>Leader classic</title>
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__options">
+          <button 
+          class="header__burger burger" 
+          aria-label="Открыть меню" 
+          aria-expanded="false" 
+          aria-controls="header__menu">
+          <svg width="16" height="16">
+            <use
+            class="burger__icon-menu" 
+            href="./icons/burger-sprite.svg#burger-menu">
+          </use>
+            <use
+            class="burger__icon-cross" 
+            href="./icons/burger-sprite.svg#burger-cross">
+          </use>
+          </svg>
+          </button>
+        <a  href="/">
+          <div class="logo header__logo">
+            <div class="logo__img">
+              <svg class="logo__top"
+                width="34" 
+                height="17">
+                <use
+                href="./icons/logo-sprite.svg#logo-top"></use>
+              </svg>
+              <svg class="logo__bottom" 
+              width="52" 
+              height="45">
+                <use 
+                href="./icons/logo-sprite.svg#logo-bottom"></use>
+              </svg>
+            </div>
+            <div class="logo__text">
+              <p class="logo__name">LEADER CLASSIC</p>
+            </div>
+          </div>
+        </a>
+        </div>
+        <nav class="header__menu" 
+        id="header__menu" 
+        aria-label="Главное меню">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link--language">RU</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link bg-text" >Тарифы</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link bg-text">Бонус</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link bg-text">Реферальная</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link bg-text">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__actions">
+          <button class="header__actions-button-entry dark-button"> 
+            <a href="#" class="dark-button__text header__link-entry">Войти
+            </a>
+          </button>
+          <button class="header__actions-button-open accent-button">       
+            <a href="#" class="accent-button__text header__link-open ">Открыть счет
+            </a>
+          </button>
+      </div>
+    </header>
+      <main class="main">
+        <section class="section hero">
+          <div class="container hero__container">
+            <div class="hero__img">
+              <img src="./images/hand-with-phone.png" alt="Деревянная рука держит телефон в руке"
+              width="1277"
+              height="1410">
+            </div>
+            <div class="hero__header">
+              <img
+              src="./images/gift.png"
+              width="62"
+              height="62"
+              alt="Подарок в виде коробки с бантиком">
+              <div class="hero__header-info">
+                <h4 class="hero__header-title">Станьте миллионером с Leader Classic
+                </h4>
+                <p class="hero__header-text"> Откройте счет, инвестируйте в фонды Leader Classic и получите шанс выиграть один из 100 000 000 ₽</p>
+              </div>
+              <div class="timer">
+                  <div class="timer__item timer__days">00</div>
+                  <div class="timer__separator">:</div>
+                  <div class="timer__item timer__hours">00</div>
+                  <div class="timer__separator">:</div>
+                  <div class="timer__item timer__minutes">00</div>
+                  <div class="timer__separator">:</div>
+                  <div class="timer__item timer__seconds">00</div>
+              </div> 
+            </div>
+            <div class="hero__main">
+              <h1 class="hero__main-title">ТОП-5 акций 
+                с доходностью до 10-30% уже в 2022 году 
+              </h1>
+              <ul class="hero__main-list">
+                <li class="hero__main-item">Открытие брокерского счета за 5 минут без визита в офис</li>
+                <li class="hero__main-item">Доступ к ценным бумагам с любого устройства</li>
+                <li class="hero__main-item">Поддержка в чате 24/7</li>
+              </ul>
+              <div class="hero__main-buttons">
+                <button class="accent-button hero__main-button-save">
+                  <a href="#" class="accent-button__text hero__main-button-text">Скачать ТОП-5 акций
+                  </a>
+                  <img 
+                  class="hero__main-button-img"
+                  src="./images/hero-accent-button.png"
+                  width="123"
+                  height="104" alt="чек-лист эффективности">
+                </button>
+                <button class="dark-button">
+                  <a href="#" class="dark-button__text">Открыть счёт
+                  </a>
+                </button>
+              </div>
+            </div>
+            <div class="hero__footer">
+              <div class="hero__footer-icons">
+                <svg
+                class="hero__footer-icon-one"
+                width="70" 
+                height="70">>
+                  <use href="./icons/hero-sprite.svg#first-face">
+                  </use>
+                </svg>
+                <svg
+                class="hero__footer-icon-two"
+                width="70" 
+                height="70">
+                  <use href="./icons/hero-sprite.svg#second-face">
+                  </use>
+                </svg>
+                <svg 
+                class="hero__footer-icon-three"
+                width="70" 
+                height="70">>
+                  <use href="./icons/hero-sprite.svg#third-face">
+                  </use>
+                </svg>
+              </div>
+                <p class="hero__footer-text"> Сейчас инвестируют <br> 100 000+ пользователей</p>
+            </div>
+          </div>
+        </section>
+      </main>
+  </body>
+</html>

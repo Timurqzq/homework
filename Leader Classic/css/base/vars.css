@@ -1,0 +1,33 @@
+:root {
+    /* font-family */
+    --font-family: "Gotham Pro", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+    --third-family: Latin CT, serif;
+
+    /* color */
+    --main-color: #fff;
+    --accent-button-color: #000;
+    --secondary-color: #4bd879;
+    --bg-color: #0e0e12;
+
+
+    /* container  */
+    --container-width: 1600px;
+    --container-padding: 20px;
+
+    /* transition  */
+    --transition-time: 0.2s;
+
+    /* shadows */
+    --accent-button-shadow: inset 0 -4px 0 0 #8f4119, 0 3px 49px -3px rgba(226, 128, 72, 0.76);
+    --shadow-color: #000000;
+
+    /* layers */
+    --layer-negative: -1;
+    --layer-1: 1;
+    --layer-2: 2;
+    --layer-3: 3;
+    --layer-4: 4;
+
+
+}
