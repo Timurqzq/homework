@@ -21,6 +21,7 @@ try {
       PAGE_BODY_NO_SCROLL: "page__body--no-scroll",
       MENU_LINK: "header__menu-link",
       BREAKPOINT: 992,
+      MAIN: "main",
     },
     headerFixed
   );

@@ -39,7 +39,7 @@ input:focus {
     width: 376px;
     height: 106px;
     border-radius: 20px;
-    transition: transform var(--transition-time) ;
+    transition: transform var(--transition-time);
 }
 
 .dark-button__text {
@@ -54,20 +54,40 @@ input:focus {
 }
 
 @media (width > 1440px) {
+
     .dark-button__text {
         font-size: 22px;
     }
 }
 
 @media (width <=1440px) {
+    .dark-button {
+        width: 326px;
+        height: 96px;
+    }
+
     .dark-button__text {
-        font-size: 15px;
+        font-size: 20px;
+    }
+}
+
+@media (width <=992px) {
+    .dark-button {
+        width: 256px;
+        height: 75px;
+        border-radius: 17px;
+    }
+
+    .dark-button__text {
+        font-size: 16px;
     }
 }
 
 @media (width <=576px) {
     .dark-button {
-        border-radius: 16px;
+        width: 160px;
+        height: 50px;
+        border-radius: 12px;
     }
 
     .dark-button__text {
@@ -111,14 +131,33 @@ input:focus {
 }
 
 @media (width <=1440px) {
+    .accent-button {
+        width: 326px;
+        height: 96px;
+    }
+
     .accent-button__text {
         font-size: 18px;
     }
 }
 
+@media (width <=992px) {
+    .accent-button {
+        width: 256px;
+        height: 75px;
+        border-radius: 17px;
+    }
+
+    .accent-button__text {
+        font-size: 16px;
+    }
+}
+
 @media (width <=576px) {
     .accent-button {
-        border-radius: 16px;
+        width: 160px;
+        height: 50px;
+        border-radius: 12px;
     }
 
     .accent-button__text {

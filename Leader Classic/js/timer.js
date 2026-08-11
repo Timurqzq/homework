@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const deadline = new Date('2026-12-31T23:59:59');
+    const deadline = new Date('2026-08-31T23:59:59');
 
     // Найдите элементы DOM
     const elDays = document.querySelector('.timer__days');
@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
         elMinutes.textContent = String(minutes).padStart(2, '0');
         elSeconds.textContent = String(seconds).padStart(2, '0');
 
-        elDays.dataset.title = declensionNum(days, ['д']);
-        elHours.dataset.title = declensionNum(hours, ['час', 'часа', 'часов']);
-        elMinutes.dataset.title = declensionNum(minutes, ['минута', 'минуты', 'минут']);
-        elSeconds.dataset.title = declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
+        elDays.dataset.title = 'д';
+        elHours.dataset.title = 'ч';
+        elMinutes.dataset.title = 'м';
+        elSeconds.dataset.title = 'с';
 
         if (diff === 0) {
             clearInterval(timerId);

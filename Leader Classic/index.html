@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="shortcut icon" href="" type="image/x-icon" />
-    <script defer src="./js/index.js" type="module"></script>
-    <script defer src="./js/timer.js" type="module"></script>
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/timer.js" type="module"></script>
     <title>Leader classic</title>
   </head>
   <body class="page__body">
@@ -81,26 +81,32 @@
             <a href="#" class="accent-button__text header__link-open ">Открыть счет
             </a>
           </button>
+        </div>  
       </div>
     </header>
-      <main class="main">
+    <main class="main">
         <section class="section hero">
           <div class="container hero__container">
-            <div class="hero__img">
-              <img src="./images/hand-with-phone.png" alt="Деревянная рука держит телефон в руке"
-              width="1277"
-              height="1410">
-            </div>
+              <svg 
+              class="hero__img-arrow"
+              width="42"
+              height="156">
+                <use href="./icons/hero-sprite.svg#arrow">
+                </use>
+              </svg>
             <div class="hero__header">
-              <img
-              src="./images/gift.png"
-              width="62"
-              height="62"
-              alt="Подарок в виде коробки с бантиком">
-              <div class="hero__header-info">
-                <h4 class="hero__header-title">Станьте миллионером с Leader Classic
-                </h4>
-                <p class="hero__header-text"> Откройте счет, инвестируйте в фонды Leader Classic и получите шанс выиграть один из 100 000 000 ₽</p>
+              <div class="hero__header-start">
+                <img
+                  class="hero__header-img-gift"
+                  src="./images/gift.png"
+                  width="62"
+                  height="62"
+                  alt="Подарок в виде коробки с бантиком">
+                <div class="hero__header-info">
+                  <h4 class="hero__header-title">Станьте миллионером с Leader Classic
+                  </h4>
+                  <p class="hero__header-text"> Откройте счет, инвестируйте в фонды Leader Classic и получите шанс выиграть один из 100&nbsp;000&nbsp;000&nbsp;₽</p>
+                </div>
               </div>
               <div class="timer">
                   <div class="timer__item timer__days">00</div>
@@ -125,11 +131,12 @@
                 <button class="accent-button hero__main-button-save">
                   <a href="#" class="accent-button__text hero__main-button-text">Скачать ТОП-5 акций
                   </a>
-                  <img 
+                  <svg 
                   class="hero__main-button-img"
-                  src="./images/hero-accent-button.png"
                   width="123"
-                  height="104" alt="чек-лист эффективности">
+                  height="118">
+                    <use href="./icons/hero-sprite.svg#check"></use>
+                  </svg>
                 </button>
                 <button class="dark-button">
                   <a href="#" class="dark-button__text">Открыть счёт
@@ -142,7 +149,7 @@
                 <svg
                 class="hero__footer-icon-one"
                 width="70" 
-                height="70">>
+                height="70">
                   <use href="./icons/hero-sprite.svg#first-face">
                   </use>
                 </svg>
@@ -156,15 +163,20 @@
                 <svg 
                 class="hero__footer-icon-three"
                 width="70" 
-                height="70">>
+                height="70">
                   <use href="./icons/hero-sprite.svg#third-face">
                   </use>
                 </svg>
               </div>
                 <p class="hero__footer-text"> Сейчас инвестируют <br> 100 000+ пользователей</p>
             </div>
+            <div class="hero__img">
+              <img src="./images/hand-with-phone.png" alt="Деревянная рука держит телефон в руке"
+              width="1277"
+              height="1410">
+            </div>
           </div>
         </section>
-      </main>
+    </main>
   </body>
 </html>

@@ -9,11 +9,12 @@
     --accent-button-color: #000;
     --secondary-color: #4bd879;
     --bg-color: #0e0e12;
+    --third-color: #eae9e9;
 
 
     /* container  */
     --container-width: 1600px;
-    --container-padding: 20px;
+    --container-padding: 30px;
 
     /* transition  */
     --transition-time: 0.2s;
